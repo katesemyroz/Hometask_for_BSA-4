@@ -1,57 +1,80 @@
-#top{
-  height: 80px;
+#header{
+  width:100%;
+  display: inline-flex;
+  justify-content: space-between;
+  border-style: groove;
 }
 
-#top img {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+#header p{
+  width: 80px;
+  border-color: grey;
+  border-style: groove;
+  margin-right: 5px;
 }
 
-#top p{
-  display: inline-block;
-  vertical-align: middle;
-}
-
-#menu{
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-#menu p{
-  text-align:left;
-}
-
-#main{
-  height: 600px;
-/*ширина должна быть резиновой!*/
-  width: 800px;
-  display: inline-block;
-}
-
-#main_part_1{
-  height: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.blocks_1{
-  background-color: yellow;
-  width: 200px;
-/*не сказано что блоки должны быть фиксированой высоты*/
-  height: 100px;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-.blocks_1 p{
+#header_menu{
   display: flex;
   align-items: center;
 }
 
-#main_part_2{
-  
+#header_menu img{
+  width: 40px;
+  height: 40px;
+}
+
+
+#center{
+  display: inline-flex;
+}
+
+#left_menu{
+  width: 400px;
+  vertical-align: top;
+  border-style: groove;
+}
+
+#left_menu p{
+  text-align:left;
+  margin: 6px;
+}
+
+#main{
+  display: inline-flex;
+  flex-wrap: wrap;
+  border-style: groove;
+  justify-content: center;
+}
+
+.blocks{
+  background-color: grey;
+  width: 300px;
+  margin: 10px;
+  flex-shrink: 10;
+}
+
+.blocks p{
+  margin: 10px;
+}
+
+#block_with_decore p::before{
+  content: "¶¶ ";
+}
+
+#footer-part_1{
+  border-style: groove;
+}
+
+#footer-part_1 table {
+      width:100%;
+}
+
+#footer-part_1 li{
+  list-style-type: none;
+}
+
+#footer-part_2{
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  border-style: groove;
 }
