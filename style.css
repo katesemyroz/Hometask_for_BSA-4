@@ -1,0 +1,57 @@
+#top{
+  height: 80px;
+}
+
+#top img {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#top p{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#menu{
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#menu p{
+  text-align:left;
+}
+
+#main{
+  height: 600px;
+/*ширина должна быть резиновой!*/
+  width: 800px;
+  display: inline-block;
+}
+
+#main_part_1{
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blocks_1{
+  background-color: yellow;
+  width: 200px;
+/*не сказано что блоки должны быть фиксированой высоты*/
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.blocks_1 p{
+  display: flex;
+  align-items: center;
+}
+
+#main_part_2{
+  
+}
