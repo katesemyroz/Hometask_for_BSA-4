@@ -7,12 +7,11 @@
 
 #header p{
   width: 80px;
-  border-color: grey;
   border-style: groove;
   margin-right: 5px;
 }
 
-#header_menu{
+#header_menu, #links{
   display: flex;
   align-items: center;
 }
@@ -62,6 +61,7 @@
 
 #footer-part_1{
   border-style: groove;
+  width: 100%;
 }
 
 #footer-part_1 table {
@@ -77,4 +77,8 @@
   display: inline-flex;
   justify-content: space-between;
   border-style: groove;
+}
+
+#links a, #footer-part_2 img, #header_menu img{
+  margin: 5px;
 }
