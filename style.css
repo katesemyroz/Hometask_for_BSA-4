@@ -23,6 +23,8 @@
 
 
 #center{
+  width: 100%;
+  border-style: groove;
   display: inline-flex;
 }
 
